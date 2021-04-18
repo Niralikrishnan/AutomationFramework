@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="40181" started-at="2021-04-18T00:55:16Z" finished-at="2021-04-18T00:55:56Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="40181" started-at="2021-04-18T00:55:16Z" finished-at="2021-04-18T00:55:56Z">
+      <class name="Com.Test.Nirali.Scenario1_OrderTshirt">
+        <test-method status="PASS" signature="orderTshirt(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.Test.Nirali.Scenario1_OrderTshirt@485966cc]" name="orderTshirt" duration-ms="19070" started-at="2021-04-18T01:55:35Z" data-provider="getdata" finished-at="2021-04-18T01:55:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishnanm2006@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VGVzdEAxMjM0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MY ACCOUNT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[01. Summary]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Faded Short Sleeve T-shirts]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderTshirt -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Test.Nirali.Scenario1_OrderTshirt@485966cc]" name="teardown" is-config="true" duration-ms="1667" started-at="2021-04-18T01:55:54Z" finished-at="2021-04-18T01:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Com.Test.Nirali.Scenario2_UpdatePersonalInformationInMyAccount@306e95ec]" name="teardown" is-config="true" duration-ms="762" started-at="2021-04-18T01:55:56Z" finished-at="2021-04-18T01:55:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Com.Test.Nirali.Scenario1_OrderTshirt -->
+      <class name="Com.Test.Nirali.Scenario2_UpdatePersonalInformationInMyAccount">
+        <test-method status="PASS" signature="UpdatePersonalInformationInMyAccount(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Com.Test.Nirali.Scenario2_UpdatePersonalInformationInMyAccount@306e95ec]" name="UpdatePersonalInformationInMyAccount" duration-ms="18659" started-at="2021-04-18T01:55:16Z" data-provider="getdata" finished-at="2021-04-18T01:55:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[krishnanm2006@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[VGVzdEAxMjM0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[MY ACCOUNT]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Nirali]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[YOUR PERSONAL INFORMATION]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Your personal information has been successfully updated.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdatePersonalInformationInMyAccount -->
+      </class> <!-- Com.Test.Nirali.Scenario2_UpdatePersonalInformationInMyAccount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
